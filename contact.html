@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalCheck</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    
+
+    <style>
+
+        /* Basic Reset */
+
+
+    </style>
+
+</head>
+
+    <body>
+        <div class="container" data-aos="fade-left">
+        <div class="navbar">
+
+            <a href="./index.html">BMI Calculator</a>
+
+            <a href="#contactForm">Contact Us</a>
+
+        </div>
+    </div>
+    <div class="div" data-aos="fade-right" >
+        <h1>Welcome to VitalCheck-Contact Page</h1>
+        
+
+    </div>
+
+
+    
+
+    <!-- Contact Form -->
+        <div id="contactForm" class="section fade-right" data-aos="fade-left">
+
+            <h2>Contact Us</h2>
+
+            <input type="text" id="email" placeholder="Your Email">
+
+            <textarea id="message" placeholder="Your Message"></textarea>
+
+            <button onclick="sendMessage()">Send</button>
+
+        </div>
+        <div class="footer">
+            <p><h2>| VitalCheck |</h2> </p>
+          </div>
+
+
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script src="script.js"></script>
+          <script>
+              AOS.init();
+          
+              // Scroll to Top Function
+              function scrollToTop() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+              }
+          </script>
+    
+
+</body>
+
+</html>

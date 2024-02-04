@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalCheck</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    
+
+    <style>
+
+        /* Basic Reset */
+
+
+    </style>
+
+</head>
+
+    <body>
+      <section>
+        <div class="div" data-aos="fade-right" >
+          <h1>Welcome to VitalCheck</h1>
+          <div class="container" data-aos="fade-left">
+          <div class="navbar">
+
+              <a href="./index.html">BMI Calculator</a>
+
+              <a href="./contact.html">Contact Us</a>
+
+          </div>
+      </div>
+
+                </div>
+            <!-- Carousel -->
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-aos="fade-left" >
+            
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="vitaladd1.jpg" class=" h-25 d-block w-300" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="vitalorg1.jpg" class="d-block w-150" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="vitalorg2.jpg" class="d-block w-150" alt="...">
+                </div>
+              </div>
+            </div>
+            <!-- Carousel -->
+      </section>
+
+    <!-- BMI Calculator -->
+
+        <div class="nit" data-aos="fade-right">
+        <div id="bmiCalculator" class="section fadeIn">
+
+            <h2>BMI Calculator</h2>
+    
+            <input type="number" id="weight" placeholder="Weight in kg">
+    
+            <input type="number" id="height" placeholder="Height in cm">
+    
+            <button onclick="calculateBMI()">Calculate</button>
+    
+            <p id="bmiResult"></p>
+            <h3>Body Mass Index (BMI) is a numerical value calculated from an individual's weight and height. It is commonly used as a screening tool to categorize weight status and assess potential health risks associated with weight.</h3>
+    
+        </div>
+    </div>
+    
+
+
+
+
+
+    <!-- Contact Form -->
+        <div id="contactForm" class="section fade-right" data-aos="fade-left">
+
+            <h2>Contact Us</h2>
+
+            <input type="text" id="email" placeholder="Your Email">
+
+            <textarea id="message" placeholder="Your Message"></textarea>
+
+            <button onclick="sendMessage()">Send</button>
+
+        </div>
+        <div class="footer">
+            <p><h2>| VitalCheck |</h2> </p>
+          </div>
+
+
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script src="script.js"></script>
+          <script>
+              AOS.init();
+          
+              // Scroll to Top Function
+              function scrollToTop() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+              }
+          </script>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", "sans-serif";
+}
+.div{
+  margin-bottom: 0px; 
+  margin-right: 0px;
+}
+
+#carouselExampleIndicators{
+  margin-bottom: 0px; 
+  margin-right: 0px;
+}
+
+h1{
+    background-color: aquamarine;
+    color: yellow;
+    text-align: center;
+    border-color: rgb(10, 9, 9);
+    border-width: thick;
+    border-style: dotted;
+}
+body{
+    background-color: green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+img{
+    border: red 2px solid;
+    margin-top: 10px;
+    /* border-color: red; */
+    /* border-style: double; */
+    /* border-width: 20px; */
+    
+}
+
+body, h1, h2, p, input, button, textarea { 
+    margin: 0; 
+    padding: 0; 
+    
+     }
+
+
+/* Body & Typography */
+
+body { 
+    font-family: Arial, sans-serif; 
+    line-height: 2;
+    margin-top: 20px; 
+    
+}
+
+h1 { 
+    color: rgb(28, 27, 26); 
+}
+
+
+
+/* Navigation Bar */
+
+.navbar { 
+    background-color: #a6b990; 
+    color: rgb(241, 22, 22); 
+    text-align: center; 
+
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+   
+
+    
+}
+
+.navbar a { 
+    color: rgb(40, 46, 28); 
+    font-size: medium;
+    margin: 5 10px; 
+    text-decoration: none; 
+}
+
+
+/* Sections */
+
+.section { 
+    margin-bottom: 50px; 
+    margin-right: 50px;
+}
+
+.section h2 { 
+    background-color: #201212;
+    box-sizing: border-box;
+    color: rgb(205, 50, 50); 
+    margin-bottom: 10px; 
+}
+
+.nit{
+	   
+    margin: 25px 0; 
+    
+}
+
+.organic {
+  display: flex;
+  
+}
+
+.carousel-inner img {
+  width: 70%;
+  height: 70vh;
+}
+
+.organic .org img {
+  height: 200px;
+  width: 200px;
+}
+
+/* Forms and Inputs */
+
+input[type='number'], 
+input[type='text'], 
+textarea { 
+    width: 90%; 
+    padding: 16px; 
+    margin: 15px 0; 
+}
+
+button {
+    background-color: #25d8ec;
+    color: black;
+    padding: 10px 15px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+button:hover { 
+    background-color: #555; 
+}
+
+
+/* BMI Calculator */
+
+#bmiResult { 
+    color: rgb(213, 244, 11); 
+}
+
+
+/* Animations */
+
+@keyframes fadeIn {
+
+    from { opacity: 0; }
+
+    to { opacity: 1; }
+
+}
+
+.fadeIn { animation: fadeIn 2s; }
+
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(12, 4, 4);
+    color: white;
+    text-align: center;
+  }
+
+@media screen and ( max-width:576px)
+{
+    h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for larger screens */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .column {
+    width: 100%;
+    float: left;
+  }
+  @media only screen and (min-width: 576px) {
+    /* Styles for tablets and larger screens */
+  }
+  
+  @media only screen and (min-width: 900px) {
+    /* Styles for desktops */
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  body {
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 2em; /* Twice the default font size */
+  }
+  .mobile-only {
+    display: none; /* Hide on larger screens */
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .mobile-only {
+      display: block; /* Show on smaller screens */
+    }
+  }
