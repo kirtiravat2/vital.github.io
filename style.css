@@ -4,6 +4,14 @@
   box-sizing: border-box;
   font-family: "Josefin Sans", "sans-serif";
 }
+.carousel{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 70vh;
+}
 .div{
   margin-bottom: 0px; 
   margin-right: 0px;
@@ -107,11 +115,6 @@ h1 {
 .organic {
   display: flex;
   
-}
-
-.carousel-inner img {
-  width: 70%;
-  height: 70vh;
 }
 
 .organic .org img {
